@@ -1,0 +1,146 @@
+footer {
+  background: #25201d;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+}
+
+footer .footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.footer__top-left {
+  position: relative;
+  top: -60px;
+}
+
+.footer__top-left img {
+  width: 350px;
+  height: 350px;
+}
+
+.footer__top-right {
+  width: 400px;
+  color: #fff;
+}
+
+.footer__top-right h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  padding-bottom: 0.8rem;
+}
+
+.footer__top-right p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  padding-bottom: 1rem;
+}
+
+.form__control {
+  display: flex;
+  width: 400px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 0.2rem;
+}
+
+.form__control input {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  color: #fff;
+}
+.form__control input::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.form__control button {
+  background: #ffffff;
+  box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #242120;
+  border: none;
+  outline: none;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__bottom .quicklinks h4 {
+  padding-bottom: 1rem;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footer__bottom .quicklinks ul li a {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  display: inline-block;
+  padding-bottom: 0.8rem;
+  transition: 0.3s ease-in;
+}
+
+.footer__bottom .quicklinks ul li a:hover {
+  text-decoration: underline;
+}
+
+.smlinks {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.smlinks a {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}

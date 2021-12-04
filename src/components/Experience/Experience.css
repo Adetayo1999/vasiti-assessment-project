@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 0.7rem;
 }
 
 .experience__left {
@@ -21,10 +22,6 @@
   object-fit: contain;
 }
 
-.experience__right {
-  margin-left: 70px;
-}
-
 .experience__right h3 {
   font-family: Inter;
   font-style: normal;
@@ -36,9 +33,9 @@
 }
 
 .experience__user {
-  width: 95px;
-  height: 30px;
-  padding: 0.5rem 0.9rem;
+  width: 90px;
+  height: 26px;
+  padding: 0.4rem 0.8rem;
   border-radius: 2px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   margin-bottom: 40px;
@@ -46,6 +43,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.experience__user.vendor__color {
+  border: 1px solid rgba(255, 92, 0, 0.4);
+  color: #ff5c00;
 }
 
 .experience__right p {
@@ -70,6 +73,10 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #fff;
+}
+
+.experience__share a.vendor__color {
+  color: #ff5c00;
 }
 
 .experience__share a::after {

@@ -17,10 +17,15 @@ function Testimonial({
         <h4>{username}</h4>
         <p>
           {" "}
-          {userLocation} <span>{userType}</span>{" "}
+          {userLocation}{" "}
+          <span
+            className={` ${userType === "CUSTOMER" ? "customer" : "vendor"}`}
+          >
+            {userType}
+          </span>{" "}
         </p>
       </div>
-      <p>{userTestimony}</p>
+      <p className='usertestimony'>{userTestimony}</p>
     </div>
   );
 }

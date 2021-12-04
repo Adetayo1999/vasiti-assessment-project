@@ -8,6 +8,7 @@ function Experience({
   userType,
   experienceImage,
   isDark,
+  handleOpen,
 }) {
   return (
     <div
@@ -17,16 +18,30 @@ function Experience({
         color: `${isDark ? "#FFFFFF" : "#242120"}`,
       }}
     >
-      <div className='container'>
+      <div
+        className='container'
+        style={{ flexDirection: `${!isDark && "row-reverse"}` }}
+      >
         <div className='experience__left'>
           <img src={experienceImage} alt='Vasiti Experience' />
         </div>
-        <div className='experience__right'>
+        <div
+          className='experience__right'
+          style={{ margin: `${isDark ? "0 0 0 70px" : "0 70px 0 0"}` }}
+        >
           <h3>{experienceTitle}</h3>
-          <div className='experience__user'>{userType}</div>
+          <div className={`experience__user ${!isDark && "vendor__color"}`}>
+            {userType}
+          </div>
           <p>{experienceText}</p>
           <div className='experience__share'>
-            <Link to='/'>Share Your Own Story!</Link>
+            <Link
+              to='/'
+              className={`${!isDark && "vendor__color"}`}
+              onClick={handleOpen}
+            >
+              Share Your Own Story!
+            </Link>
           </div>
         </div>
       </div>

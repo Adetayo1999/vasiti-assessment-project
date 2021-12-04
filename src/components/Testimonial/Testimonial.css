@@ -1,3 +1,73 @@
 .testimonial {
   width: 250px;
+  margin-bottom: 20px;
+}
+
+.testimonial .userimage {
+  margin-bottom: 10px;
+}
+
+.testimonial .userimage img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.testimonial .username h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #474747;
+}
+
+.testimonial .username p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #535353;
+  margin: 5px 0 20px 0;
+}
+
+.testimonial .username p span {
+  margin-left: 10px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+}
+
+.testimonial .username p span.customer {
+  background: #eef8ff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #0d019a;
+}
+
+.testimonial .username p span.vendor {
+  background: #f0ffee;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #049a01;
+}
+
+.usertestimony {
+  width: 90%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #474747;
 }

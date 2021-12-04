@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-
+import Logo from "../../images/logo.svg";
 function Header() {
   return (
     <header className='header'>
@@ -9,7 +9,7 @@ function Header() {
         <div className='header__top'>
           <div className='header__top-left'>
             <h3>
-              <span>vasiti</span>.com
+              <img src={Logo} alt='Vasiti Logo' />
             </h3>
           </div>
 
