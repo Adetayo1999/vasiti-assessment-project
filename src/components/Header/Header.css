@@ -1,0 +1,77 @@
+.header {
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.header__container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+}
+
+.header__top-left h3 {
+  color: #ff5c00;
+}
+
+.header__top-left h3 span {
+  color: #242120;
+  font-size: 21px;
+}
+
+.header__top-right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__top-right li {
+  font-family: "Roboto";
+  margin-right: 20px;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 0.9rem;
+}
+.header__top-right li a {
+  color: #242120;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.header__top-right li.signup {
+  background-color: #ff5c00;
+  border-radius: 4px;
+}
+.header__top-right li.signup a {
+  color: #fff;
+}
+
+.header__bottom {
+  padding: 0.8rem 0;
+}
+
+.header__bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__bottom ul li a {
+  text-transform: uppercase;
+  color: #242120;
+  font-size: 12px;
+  font-family: "Roboto";
+}

@@ -1,0 +1,82 @@
+.experience {
+  padding-top: 1rem;
+  height: 450px;
+  overflow: hidden;
+}
+
+.experience .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience__left {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+}
+
+.experience .experience__left img {
+  width: 500px;
+  object-fit: contain;
+}
+
+.experience__right {
+  margin-left: 70px;
+}
+
+.experience__right h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  padding-bottom: 0.2rem;
+}
+
+.experience__user {
+  width: 95px;
+  height: 30px;
+  padding: 0.5rem 0.9rem;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-bottom: 40px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience__right p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.experience__share {
+  margin: 20px auto;
+}
+
+.experience__share a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.experience__share a::after {
+  content: "";
+  background-image: url("../../images/Vector\ 3.png");
+  width: 280px;
+  height: 10px;
+  display: block;
+  margin-top: -6px;
+}
